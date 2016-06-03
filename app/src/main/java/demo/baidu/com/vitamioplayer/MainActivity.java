@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //创建集合
         List<String> list = new ArrayList<String>();
         for (int i=0;i<10;i++) {
             list.add("Hello World");
